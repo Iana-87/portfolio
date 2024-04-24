@@ -1,0 +1,236 @@
+body{
+    background-color: #092635;
+    margin: 0;
+    padding: 0;
+   
+  }
+  h3{
+    color: #B99470;
+    font-family: 'Recursive', sans-serif;
+    text-align: center;
+  }
+  h2{
+    color: #994D1C;
+    font-family: 'Recursive', sans-serif;
+    text-align: center;
+  }
+  
+  .pic{
+    margin-top: 20px;
+    display: flex;
+  justify-content: end;
+   
+  }
+  .img{
+  
+    width: 370px;
+    height: 500px;
+    border-top-left-radius:  70px;
+    border-bottom-right-radius: 70px;
+   
+  }
+
+  
+  .head{
+                 
+    width: 400px;
+    color: #C1F2B0; 
+    font-size: 60px;
+  
+     font-family: 'Recursive', sans-serif;
+    white-space:nowrap;
+  }
+  h4{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+    text-align: center;
+    color: #000000
+    font-family 'Dhurjati', sans-serif;
+  
+  }
+  
+  
+  
+   .theme-light {
+     --color-primary: #9EC8B9;
+     --color-secondary: #5C8374;
+     --color-accent: #1B4242;
+     --font-color: #092635;
+   }
+   .theme-dark {
+     --color-primary: #17ed90;
+     --color-secondary:#092635;
+     --color-accent: #5C8374;
+     --font-color: #9EC8B9;
+   }
+   .container {
+   display: flex;
+    width: 100%;
+    height: 100%;
+    background: var(--color-secondary);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+   .container button {
+     color: var(--font-color);
+     background: var(--color-primary);
+     padding: 10px 20px;
+     border: 0;
+     border-radius: 5px;
+   
+   }
+   
+   /* The switch - the box around the slider */
+   .switch {
+     position: relative;
+     display: inline-block;
+     width: 60px;
+     height: 34px;
+     margin-top: 10px;
+   }
+   
+   /* Hide default HTML checkbox */
+   .switch input {
+     opacity: 0;
+     width: 0;
+     height: 0;
+   }
+   
+   /* The slider */
+   .slider {
+     position: absolute;
+     cursor: pointer;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #1B4242;
+     -webkit-transition: 0.4s;
+     transition: 0.4s;
+   }
+   
+   .slider:before {
+     position: absolute;
+     content: "";
+     height: 40px;
+     width: 40px;
+     left: 0px;
+     bottom: 4px;
+     top: 0;
+     bottom: 0;
+     margin: auto 0;
+     -webkit-transition: 0.4s;
+     transition: 0.4s;
+     box-shadow: 0 0px 15px #092635;
+    
+     background-repeat: no-repeat;
+     background-position: center;
+   }
+   
+   input:checked + .slider {
+     background-color: #9EC8B9;
+   }
+   
+   input:focus + .slider {
+     box-shadow: 0 0 1px #1B4242;
+   }
+   
+   input:checked + .slider:before {
+     -webkit-transform: translateX(24px);
+     -ms-transform: translateX(24px);
+     transform: translateX(24px);
+     background: #9EC8B9 url('https://i.ibb.co/7JfqXxB/sunny.png');
+     background-repeat: no-repeat;
+     background-position: center;
+   }
+   
+   /* Rounded sliders */
+   .slider.round {
+     border-radius: 34px;
+   }
+   
+   .slider.round:before {
+     border-radius: 50%;
+   }
+  
+  
+   .web{
+  
+    font-size: 20px;
+    font-family: 'Recursive', sans-serif;
+    margin-top: 4px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    color: #3EC70B;
+    text-transform: uppercase;
+    text-decoration: none;
+   display: inline-block;
+    padding: 8px 20px;
+   }
+  .link{
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    display: flex;
+   flex-direction: row-reverse;
+  
+  }
+  
+  .square div {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #3EC70B;
+    animation: flip 2s linear infinite;
+    transform-origin: right bottom;
+  }
+  
+  .square div:nth-of-type(2) {
+    animation-delay: 1s;
+    opacity: 0.5;
+  }
+  
+  @keyframes flip {
+    0% {
+      transform: rotateX(0);
+    }
+  
+    25% {
+      transform: rotateY(180deg);
+    }
+  
+    50% {
+      transform: rotateZ(180deg);
+    }
+  
+    75% {
+      transform: rotateX(180deg);
+    }
+  
+    100% {
+      transform: rotateX(0);
+    }
+  }
+  @media all and (max-width:1000px){
+      .head{
+         
+          width: 300px;
+         
+          font-size: 35px;
+           margin-left: 50px;
+           font-family: 'Recursive', sans-serif;
+          font-weight: bold; 
+          white-space:nowrap;
+           }
+          }

@@ -1,0 +1,136 @@
+.head1{
+    display: flex;
+    justify-content: space-around;
+}
+.head{
+               
+    width: 440px;
+    color: #C1F2B0; 
+    font-size: 60px;
+     margin-left: 400px;
+     font-family: 'Recursive', sans-serif;
+    white-space:nowrap;
+
+   }
+
+.web{
+    font-size: 20px;
+    font-family: 'Recursive', sans-serif;
+    margin-top: 40px;
+   color: #3EC70B;
+    text-transform: uppercase;
+    text-decoration: none;
+   display: inline-block;
+    padding: 8px 20px;
+}
+body{
+    background-color: #092635;
+}
+.par{
+    margin-top:60px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+h2{
+    font-family: 'Recursive', sans-serif;
+    color: #B99470;
+
+}
+h3{
+    font-family: 'Recursive', sans-serif;
+    color: #B99470;
+    margin-top: 60px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+   
+  }
+  .img1{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .par1{
+    font-family: 'Recursive', sans-serif;
+    color: #B99470;
+    text-decoration: none;
+  }
+  .img2{
+    width: 70px;
+    height: 70px;
+   
+}
+#head2{
+   
+        display: flex;
+        justify-content: center;
+        font-family: 'Recursive', sans-serif;
+        color: #092635;
+        margin: 20px;
+    }
+    #text-input{
+        font-family: 'Recursive', sans-serif;
+        color: #092635; 
+        background-color: #F8F0E5;
+    }
+.btn1{
+    font-family: 'Recursive', sans-serif;
+    color: #092635; 
+    background-color:#3EC70B;
+ border: none;
+  font-size: 30px;
+  margin-top: 50px;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+#popup {
+    position: absolute;
+    background-color: #79AC78;
+    padding: 6%;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 30%;
+    border-radius: 50px;
+    z-index: 10;
+    display: none;
+}
+
+
+   
+#overlay { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+@media all and (max-width:1000px){
+    .head{
+       
+        width: 300px;
+       
+        font-size: 35px;
+         margin-left: 50px;
+         font-family: 'Recursive', sans-serif;
+        font-weight: bold; 
+        white-space:nowrap;
+  }
+  .btn1{
+    font-family: 'Recursive', sans-serif;
+    color: #092635; 
+    background-color:#3EC70B;
+ border: none;
+  font-size: 20px;
+  margin-top: 0px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+}
+}
