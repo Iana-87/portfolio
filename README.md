@@ -37,43 +37,6 @@
 
 
 
-<div class="BorderGrid-row">
-              <div class="BorderGrid-cell">
-                <h2 class="h4 mb-3">Languages</h2>
-<div>
-  <span data-view-component="true" class="Progress">
-    <span style="background-color:#563d7c;width: 44.1;" itemprop="keywords" aria-label="CSS 44.1" data-view-component="true" class="Progress-item color-bg-success-emphasis"></span>
-    <span style="background-color:#e34c26;width: 28.9;" itemprop="keywords" aria-label="HTML 28.9" data-view-component="true" class="Progress-item color-bg-success-emphasis"></span>
-    <span style="background-color:#f1e05a;width: 27.0;" itemprop="keywords" aria-label="JavaScript 27.0" data-view-component="true" class="Progress-item color-bg-success-emphasis"></span>
-</span></div>
-<ul class="list-style-none">
-    <li class="d-inline">
-        <a class="d-inline-flex flex-items-center flex-nowrap Link--secondary no-underline text-small mr-3" href="/Iana-87/portfolio/search?l=css" data-ga-click="Repository, language stats search click, location:repo overview">
-          <svg style="color:#563d7c;" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-dot-fill mr-2">
-    <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
-</svg>
-          <span class="color-fg-default text-bold mr-1">CSS</span>
-          <span>44.1%</span>
-        </a>
-    </li>
-    <li class="d-inline">
-        <a class="d-inline-flex flex-items-center flex-nowrap Link--secondary no-underline text-small mr-3" href="/Iana-87/portfolio/search?l=html" data-ga-click="Repository, language stats search click, location:repo overview">
-          <svg style="color:#e34c26;" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-dot-fill mr-2">
-    <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
-</svg>
-          <span class="color-fg-default text-bold mr-1">HTML</span>
-          <span>28.9%</span>
-        </a>
-    </li>
-    <li class="d-inline">
-        <a class="d-inline-flex flex-items-center flex-nowrap Link--secondary no-underline text-small mr-3" href="/Iana-87/portfolio/search?l=javascript" data-ga-click="Repository, language stats search click, location:repo overview">
-          <svg style="color:#f1e05a;" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-dot-fill mr-2">
-    <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
-</svg>
-          <span class="color-fg-default text-bold mr-1">JavaScript</span>
-          <span>27.0%</span>
-        </a>
-    </li>
-</ul>
+
 
              
